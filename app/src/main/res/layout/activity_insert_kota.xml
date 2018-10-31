@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertKota">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/inputID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="number">
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Kota"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/inputNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="text">
+        <requestFocus/>
+    </EditText>
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnCek"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Kota"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

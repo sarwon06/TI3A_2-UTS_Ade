@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SharedP">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonKota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp"
+        android:text="Insert Kota" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="176dp"
+        android:layout_height="201dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/kode_1" />
+
+</RelativeLayout>
